@@ -46,3 +46,29 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* main body */
+.body {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.codedli {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+/* 
+.border-bottom {
+    border-bottom: grey 2rem;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.tag {
+    text-align: center;
+}
