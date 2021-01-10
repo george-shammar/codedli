@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* main body */
+.body {
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: 'Roboto', sans-serif;
+}
+.codedli {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0%;
+}
+
+.tag {
+    text-align: center;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.img {
+    height: 150px;
+    width: fit-content;
+}
+
+.profile {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.lorem {
+    border-left: 1px solid #d1d1d1;
+    padding-left: 19px;
+    margin-left: 19px;
+    width: 60%;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.fab {
+    color: grey;
+}
+
+.fas {
+    color: grey;
+}
