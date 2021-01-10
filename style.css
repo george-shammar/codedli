@@ -51,26 +51,28 @@ table {
 .body {
     margin-left: 400px;
     margin-right: 400px;
+    font-family: 'Roboto', sans-serif;
 }
 .codedli {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     text-align: center;
+    font-size: 3rem;
 }
-/* 
-.border-bottom {
-    border-bottom: grey 2rem;
-} */
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0%;
 }
 
 .tag {
     text-align: center;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
 }
 
 .img {
@@ -97,7 +99,11 @@ table {
     margin-left: 70px;
     margin-right: 70px;
 }
-/* 
+
 .fab {
-    margin-left: 5px;
-} */
+    color: grey;
+}
+
+.fas {
+    color: grey;
+}
